@@ -1,0 +1,7 @@
+{% for message in messages%}
+<div>
+    <div>{{message.content}}</div>
+    <div>{{message.username}}</div>
+    <div>{{message.created_at}}</div>
+</div>
+{% endfor %}
